@@ -11,6 +11,6 @@ Author URI: http://www.punchteam.com
 
 add_shortcode( 'year', 'punch_year');
 
-function punch_year($attr) {
-    return date("Y");
+function punch_year() {
+	return date( 'Y' );
 }
